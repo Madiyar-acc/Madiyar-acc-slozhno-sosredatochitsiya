@@ -143,7 +143,13 @@
     border-inline-start: none;
     border-block-end: none;
 }
-
+a {
+    font-family: var(--main-font);
+    font-size: 18px;
+    color: var(--text-color);
+    text-decoration: none;
+    text-shadow: 2px 2px 0 var(--title-decor-bg);
+}
 .decorated-zone::after {
     margin-inline-start: 0;
     margin-block-start: 30px;
